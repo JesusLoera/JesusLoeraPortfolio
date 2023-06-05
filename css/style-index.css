@@ -14,9 +14,7 @@ body{
 header{
     background: #252628;
     padding: 20px 0 20px 0;
-    position: fixed;
     width: 100%;
-    z-index: 1;
 }
  
 .caja{
@@ -70,15 +68,7 @@ main{
     text-align: center;
 }
 
-.contacto-contenido{
-    position: absolute;
-    top: 140px;
-}
-
-#particles-js{
-    text-align: center;
-    background: #252628;
-    z-index: -1;
+.contacto-contenido{text-align: center;
 }
 
 #imagen-cv{
@@ -96,13 +86,13 @@ h1{
     font-weight: bold;
 }
 
-.social-icons a:hover, h1:hover, h2:hover{
-    transform: scale(1.2);
-}
-
 h2{
     font-size: 1.3em;
     font-weight: bold;
+}
+
+.social-icons a:hover, h1:hover, h2:hover{
+    transform: scale(1.2);
 }
 
 .social-icons{
@@ -176,14 +166,7 @@ footer{
 
     header{
         text-align: center;
-    }
-
-    #logo-alura{
-        width: 8%;
-    }
-
-    .titulo-encriptador{
-        font-size: 0.8em;
+        position: relative;
     }
 
     nav{
@@ -195,39 +178,31 @@ footer{
         width: auto;
     }
 
-    .row:after {
-        content: "";
-        display: block;
-        clear: both;
-    }
-
-    form{
-        margin: 0 8% 0 8%;
+    h1{
+        font-size: 1.5em;
+        margin: 0.3em;
+        font-weight: bold;
     }
     
-    /* Create two equal columns that floats next to each other */
-    .col-izquierda, .col-derecha{
-        width: 100%;
-        margin-right: 0%;
+    h2{
+        font-size: 1em;
+        font-weight: bold;
     }
 
-    textarea {
-        height: 10em;
-        width: 90%;
-    }
-
-    .titulo-cuadro-texto, nav a{
+    nav a{
         font-size: 1em;
     }
 
-    .botones{
-        width: 43%;
-        margin-right: 5.6%;
+    #imagen-cv{
+        width: 40%;
+        border: 5px solid #555;
     }
 
     .contacto{
         font-size: 0.8em;
     }
+
+    
 }
 
 
@@ -238,14 +213,6 @@ footer{
         text-align: center;
     }
 
-    #logo-alura{
-        width: 8%;
-    }
-
-    .titulo-encriptador{
-        font-size: 0.8em;
-    }
-
     nav{
         position: static;
         margin-top: 0.2em;
@@ -255,34 +222,14 @@ footer{
         width: auto;
     }
 
-    .row:after {
-        content: "";
-        display: block;
-        clear: both;
-    }
 
     form{
         margin: 0 8% 0 8%;
     }
     
-    /* Create two equal columns that floats next to each other */
-    .col-izquierda, .col-derecha{
-        width: 100%;
-        margin-right: 0%;
-    }
 
-    textarea {
-        height: 10em;
-        width: 90%;
-    }
-
-    .titulo-cuadro-texto, nav a{
+    nav a{
         font-size: 1em;
-    }
-
-    .botones{
-        width: 43%;
-        margin-right: 5.6%;
     }
 
     .contacto{
@@ -318,5 +265,9 @@ footer{
         transition: 0.8s all;
         cursor: pointer;
         margin-right: 5.6%;
+    }
+
+    .contacto{
+        font-size: 0.8em;
     }
 }
