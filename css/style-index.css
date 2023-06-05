@@ -128,7 +128,24 @@ h2{
     color: #6272a4;
   }
   
+  .subtitulo{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    color: white;
+  }
 
+.texto-sobre-mi{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    color: white;
+    line-height: 1.8;
+    font-size: 1.4em;
+    font-style: italic;
+}
 
 
 footer{
