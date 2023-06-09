@@ -187,6 +187,10 @@ p a{
     padding: 40px 40px 60px 40px;
 }
 
+.habilidades{
+    margin-top: 20px;
+}
+
 .habilidades .columna {
     padding: 20px;
     border: 2px solid #8080804d;
@@ -280,14 +284,15 @@ footer{
         width: auto;
     }
 
+
     h1{
-        font-size: 1.5em;
+        font-size: 2.5em;
         margin: 0.3em;
         font-weight: bold;
     }
     
     h2{
-        font-size: 1em;
+        font-size: 2em;
         font-weight: bold;
     }
 
@@ -296,14 +301,37 @@ footer{
     }
 
     #imagen-cv{
-        width: 40%;
-        border: 5px solid #555;
+        width: 50%;
     }
 
     .contacto{
         font-size: 0.8em;
     }
 
+    #boton-leer-mas{
+        left: 40%;
+    }
+
+    .habilidades-descripcion{
+        line-height: 1.5;
+    }
+
+    .texto-sobre-mi{
+        font-size: 1em;
+    }
+
+    #imagen-footer{
+        width: 100px;
+    }
+
+    .subtitulo{
+        text-align: center;
+        font-size: 2em;
+        font-weight: bold;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        color: rgb(176, 96, 250);
+      }
     
 }
 
@@ -334,9 +362,22 @@ footer{
         font-size: 1em;
     }
 
+    h2{
+        font-size: 2em;
+    }
+
     .contacto{
         font-size: 0.8em;
     }
+
+    #boton-leer-mas{
+        left: 44%;
+    }
+
+    #imagen-cv{
+        width: 40%;
+    }
+
 }
 
 
@@ -351,25 +392,26 @@ footer{
         margin-top: 0.2em;
     }
 
+    h2{
+        font-size: 2em;
+    }
+
     .caja, .principal{
         width: auto;
     }
 
-    .botones{
-        width: 40%;
-        padding: 0.8em 0;
-        font-size: 19px;
-        font-weight: bold;
-        color: white;
-        background: rgb(19, 15, 80);
-        border: none;
-        border-radius: 5px;
-        transition: 0.8s all;
-        cursor: pointer;
-        margin-right: 5.6%;
+    #boton-leer-mas{
+        left: 45%;
     }
 
     .contacto{
         font-size: 0.8em;
+    }
+
+    #imagen-cv{
+        width: 40%;
+    }
+    .habilidades-descripcion{
+        font-size: 1.2em;
     }
 }
