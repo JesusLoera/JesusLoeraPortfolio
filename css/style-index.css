@@ -159,6 +159,11 @@ emphtext{
     text-decoration: none;
 }
 
+p a{
+    text-decoration: none;
+    color: white;
+}
+
 #more{
     display: none;
 }
@@ -180,6 +185,7 @@ emphtext{
 
 .experiencia {
     padding: 40px 40px 60px 40px;
+    color: white;
 }
 
 .experiencia .columna {
@@ -203,12 +209,6 @@ emphtext{
     margin-top: 10px;
     margin-bottom: 10px;
 }
-
-.seccion-clara {
-    color: white;
-    background-color: #252628;
-}
-
 
 .badge {
     margin: 5px;
