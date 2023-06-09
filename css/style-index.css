@@ -175,11 +175,12 @@ p a{
     color: white;
     position: relative;
     left: 46%;
-    margin-top: 1em;border: none;
+    margin-top: 15px;border: none;
     text-decoration: none;
     padding: 5px;
     border-radius: 4px;
     cursor: pointer;
+    margin-bottom: 10px;
 }
 
 
@@ -321,16 +322,13 @@ footer{
     }
 
     #imagen-footer{
-        width: 100px;
+        width: 80px;
     }
 
     .subtitulo{
-        text-align: center;
         font-size: 2em;
-        font-weight: bold;
         margin-top: 1em;
         margin-bottom: 1em;
-        color: rgb(176, 96, 250);
       }
     
 }
@@ -378,6 +376,10 @@ footer{
         width: 40%;
     }
 
+    #imagen-footer{
+        width: 100px;
+    }
+
 }
 
 
@@ -413,5 +415,9 @@ footer{
     }
     .habilidades-descripcion{
         font-size: 1.2em;
+    }
+
+    #imagen-footer{
+        width: 90px;
     }
 }
