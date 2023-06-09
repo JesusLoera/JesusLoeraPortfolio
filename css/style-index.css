@@ -187,7 +187,7 @@ p a{
     padding: 40px 40px 60px 40px;
 }
 
-.experiencia .columna {
+.habilidades .columna {
     padding: 20px;
     border: 2px solid #8080804d;
     display: flex;
@@ -195,19 +195,20 @@ p a{
     align-items: center;
     justify-content: space-evenly;
     transition: all 0.2s ease-in;
-    color: white;
 }
 
-.experiencia-titulo {
+.habilidades-titulo {
     text-align: center;
     font-size: 25px;
     font-weight: bold;
     margin: 10px 0;
+    color: white;
 }
 
-.texto-experiencia-titulo {
+.habilidades-descripcion{
     margin-top: 10px;
     margin-bottom: 10px;
+    color: white;
 }
 
 .badge {
