@@ -185,7 +185,6 @@ p a{
 
 .experiencia {
     padding: 40px 40px 60px 40px;
-    color: white;
 }
 
 .experiencia .columna {
@@ -196,6 +195,7 @@ p a{
     align-items: center;
     justify-content: space-evenly;
     transition: all 0.2s ease-in;
+    color: white;
 }
 
 .experiencia-titulo {
