@@ -62,10 +62,62 @@
 
             <section class="sobre-mi">
                 <p class="subtitulo">Sobre mi</p>
-                <p class="texto-sobre-mi"> "Estudiante de 9no semestre de física y en preparación como Jr. Data Analyst. Miembro del programa de talentos de la UANL y del laboratorio de diseño molecular.</p>
-                <p class="texto-sobre-mi">
-                Actualmente realizo una estancia de investigación acerca de indentación de nanopartículas de silicio mediante cálculos de dinámica molecular. Tengo experiencia en proyectos de investigación enfocados al modelado y resolución de ecuaciones diferenciales ordinarias y parciales de forma computacional. Además, en mi preparación como analista de datos he adquirido habilidades sobre recopilación, transformación y organización de datos para su análisis con la finalidad de tomar decisiones informadas."</p>
+                <p class="texto-sobre-mi"> "Estudiante de ultimo semestre de  <emphtext>licenciatura en física</emphtext> y en preparación como <emphtext>Jr. Data Analyst</emphtext>. Miembro del programa de <a href="https://www.uanl.mx/tramites/programa-de-talentos-universitarios/" class="emph-link">talentos universitarios</a> de la UANL y del <emphtext>laboratorio de diseño molecular</emphtext>. Actualmente realizo una estancia de investigación acerca de indentación de nanopartículas de silicio <span id="dots">...</span><span id="more">
+                mediante cálculos de <emphtext>dinámica molecular</emphtext>.Tengo experiencia en proyectos de investigación enfocados al <emphtext>modelado matemático</emphtext> y resolución de ecuaciones diferenciales ordinarias y parciales de forma computacional. Además, en mi preparación como analista de datos he adquirido habilidades sobre recopilación, transformación y organización de información con la finalidad de tomar <emphtext>decisiones basadas en datos</emphtext>."</span></p>
+                <button onclick="displayText()" id="boton-leer-mas">Leer más</button>
             </section>
+
+            <section class="experiencia seccion-clara">
+                <div class="container text-center">
+                  <div class="row">
+                    <!-- Fisica computacional -->
+                    <div class="columna col-12 col-md-4">
+                      <i class="bi bi-laptop"></i>
+                      <p class="experiencia-titulo">Computational physicist</p>
+                      <p class="texto-experiencia-titulo">En el area de diseño de sitios web cuento con experiencia de los siguientes lenguajes y plataformas de ayuda:  </p>
+                      <div class="badges-contenedor">
+                        <span class="badge ">Fortran</span>
+                        <span class="badge ">Python</span>
+                        <span class="badge ">Scipy</span>
+                        <span class="badge ">Numpy</span>
+                        <span class="badge ">Pandas</span>
+                        <span class="badge ">Matplotlib</span>
+                        <span class="badge ">LAMMPS</span>
+                        <span class="badge ">OVITO</span>
+                        <span class="badge ">GitHub</span>
+                      </div>
+                    </div>
+                    <!-- Data Analysis -->
+                    <div class="columna col-12 col-md-4">
+                      <i class="bi bi-laptop"></i>
+                      <p class="experiencia-titulo">Jr. Data Analyst</p>
+                      <p class="texto-experiencia-titulo">Mis principales herramientas para la lectura, la transformación, el análisis y la visualización de datos son las siguientes: </p>
+                      <div class="badges-contenedor">
+                        <span class="badge ">Matplotlib</span>
+                        <span class="badge ">Phyton</span>
+                        <span class="badge ">Numpy</span>
+                        <span class="badge ">Excel</span>
+                        <span class="badge ">Google Sheets</span>
+                        <span class="badge ">MySQL</span>
+                        <span class="badge ">GitHub</span>
+                      </div>
+                    </div>
+                    <!-- Desarrollador Web -->
+                    <div class="columna col-12 col-md-4">
+                      <i class="bi bi-laptop"></i>
+                      <p class="experiencia-titulo">Jr. Web Developer</p>
+                      <p class="texto-experiencia-titulo">Miembro del programa <a href="https://www.oracle.com/mx/education/oracle-next-education/" class="emph-link">Oracle Next Education</a> como junior developer con capacidad en Back-End:</p>
+                      <div class="badges-contenedor">
+                        <span class="badge ">HTML</span>
+                        <span class="badge">CSS</span>
+                        <span class="badge ">JavaScript</span>
+                        <span class="badge">Java</span>
+                        <span class="badge ">GitHub</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
 
             <section class="educacion">
                 <p class="subtitulo">Educación</p>
@@ -87,3 +139,21 @@
     </body>
 
 </html>
+
+<script>
+    function displayText() {
+        var dots = document.getElementById("dots");
+        var moreText = document.getElementById("more");
+        var btnText = document.getElementById("boton-leer-mas");
+
+        if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Leer más";
+            moreText.style.display = "none";
+        } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Leer menos";
+            moreText.style.display = "inline";
+        }
+    }
+</script>
